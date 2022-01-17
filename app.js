@@ -1,12 +1,12 @@
 const hamburgerMenuButton = document.getElementById('hamburger-menu')
 const navList = document.getElementById('nav-list')
 
-function toggleButton() {
+function toggleMenu() {
 	console.log("asdf")
 	navList.classList.toggle('show')
 }
 
-hamburgerMenuButton.addEventListener('click', toggleButton)
+hamburgerMenuButton.addEventListener('click', toggleMenu)
 
 function displayPopup(image) {
 	document.querySelector('.popup-img').style.display = 'block';
